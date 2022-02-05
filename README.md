@@ -1,7 +1,5 @@
 # position
 
-## static(default)
-
 ## position: fixed
 - element가 처음 생성된 자리에 고정.
 
