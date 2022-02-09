@@ -1,4 +1,4 @@
-# position
+# ✅position
 
 ## position: fixed
 - element가 처음 생성된 자리에 고정.
@@ -9,7 +9,7 @@
 ## position: absolute
 - 가장 가까운 relative 부모를 기준으로 이동 position:relative; 를 해주면 부모가 된다. 없으면 body.
 
-# Transitions
+# ✅Transitions
 transitions은 상태가 바뀌는 요소가 있을 때 사용한다.</br>
 ex) hover, active, focus
 - linear: 일정하게 변함
