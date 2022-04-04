@@ -19,3 +19,9 @@ ex) hover, active, focus
 all : 변화요소를 한번에 다룬다
 - 따로 다루고 싶으면 속성을 지정하면 된다.
 ex) transition: background-color 5s linear, color 1s ease-in;
+
+
+# ✅auto VS space-between
+
+auto : 글자 수에 무관하게 중앙정렬
+space-between : 글자 수에 따라서 배열이 중앙 정열
