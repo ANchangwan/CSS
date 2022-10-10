@@ -23,5 +23,10 @@ ex) transition: background-color 5s linear, color 1s ease-in;
 
 # ✅auto VS space-between
 
-auto : 글자 수에 무관하게 중앙정렬
+auto : 글자 수에 무관하게 중앙정렬<br/>
 space-between : 글자 수에 따라서 배열이 중앙 정열
+
+# ✅gradient
+
+## Linear gradient
+두개의 색상은 직선적으로 표현합니다.
