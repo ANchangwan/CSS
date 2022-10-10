@@ -29,5 +29,5 @@ space-between : 글자 수에 따라서 배열이 중앙 정열
 # ✅gradient
 
 ## Linear gradient
-두개의 색상은 직선적으로 표현합니다.<br/>
+ 직선을 따라 두개이상의 색상을 점진적 전환으로 구성된 이미지를 만듭니다..<br/>
 ![image](https://user-images.githubusercontent.com/56478474/194892230-937e9ccd-eec9-4aa4-b557-c8d1fd3deaa1.png)
