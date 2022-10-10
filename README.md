@@ -30,3 +30,4 @@ space-between : 글자 수에 따라서 배열이 중앙 정열
 
 ## Linear gradient
 두개의 색상은 직선적으로 표현합니다.
+![image](https://user-images.githubusercontent.com/56478474/194892230-937e9ccd-eec9-4aa4-b557-c8d1fd3deaa1.png)
