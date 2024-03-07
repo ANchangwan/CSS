@@ -3,17 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="rgba(255, 255, 255, 0.98)" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>assignment 9</title>
   </head>
   <body>
-    <div class="container">
-      <div class="big-box">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+    <header class="header">
+      <div class="header-menu">
+        <i class="fa-solid fa-bars fa-2x"></i>
+        <h1 class="header__h1">libary</h1>
+        <i class="fa-solid fa-basket-shopping fa-2x"></i>
+      </div>
+    </header>
+    <div class="search-bar">
+      <input
+        class="search-bar__input"
+        type="text"
+        placeholder="Search books..."
+      />
+      <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+    </div>
+
+    <div class="main">
+      <h1 class="main__h1">Song of the day</h1>
+      <div class="main-cover">
+        <img src="img/블랙핑크.jpeg" />
+        <div class="main-cover-contents">
+          <h2 class="main-cover-contents__h2">Pretty Savage</h2>
+          <p class="main-cover-contents__p">Black Pink</p>
+          <div class="main-cover-contents-icon">⭐️⭐️⭐️⭐️☆</div>
+          <div class="main-btn">
+            <button class="main-btn__button">좋아요</button>
+            <button class="main-btn__button">싫어요</button>
+          </div>
+          <div class="main-btn">
+            <i class="fa-solid fa-bookmark fa-2x"></i>
+            <button class="main-btn__button">구입하기</button>
+          </div>
+        </div>
       </div>
     </div>
+
+    <div class="list">
+      <h1 class="list__h1">Top Album</h1>
+      <ul class="list__ul">
+        <li class="list__li">
+          <img src="img/아이유.jpeg" />
+          <div class="list-icon">⭐️⭐️⭐️⭐️☆</div>
+        </li>
+        <li class="list__li">
+          <img src="img/밤양갱.jpeg" />
+          <div class="list-icon">⭐️⭐️⭐️⭐️☆</div>
+        </li>
+        <li class="list__li">
+          <img src="img/르세라핌.jpeg" />
+          <div class="list-icon">⭐️⭐️⭐️⭐️☆</div>
+        </li>
+        <li class="list__li">
+          <img src="img/tws.jpeg" />
+          <div class="list-icon">⭐️⭐️⭐️⭐️☆</div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="authors">
+      <h1 class="authors__h1">Popular Artist</h1>
+      <div class="authors-contents">
+        <img src="img/피프티.jpeg" />
+        <div class="authors-explan">
+          <h2 class="authors__h2">피프티 피프티</h2>
+          <p class="authors__p">
+            FIFTY FIFTY(피프티 피프티)는 여러 난관과 복잡한 퀘스트가 난무하는
+            현실 세계와 사랑과 우정이 있는 희망 가득한 이상 세계 사이를 오가는
+            세계관을 탐험한다. 키나(Keena)는 실제 그들이 살아가는 삶을 반영한
+            자전적인 이야기를 기반으로 다양한 음악적 색깔과 깊이를 통해 자신만의
+            여정을 그려낸다.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/705e435580.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
